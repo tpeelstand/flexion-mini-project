@@ -1,0 +1,43 @@
+[
+    {
+        "question" : "HTML stands for HyperText Markup Language.",
+        "answers" : [
+            {"id" :0, "text" : "True"},
+            {"id" :1, "text" : "False"}
+        ],
+        "correct" : 0
+    },
+    {
+        "question" : "CSS stands for Cascading Style Sheets.",
+        "answers" : [
+            {"id" :0, "text" : "True"},
+            {"id" :1, "text" : "False"}
+        ],
+        "correct" : 0
+    },
+    {
+        "question" : "JSON stands for JavaScript Oriented Name.",
+        "answers" : [
+            {"id" :0, "text" : "True"},
+            {"id" :1, "text" : "False"}
+        ],
+        "correct" : 1
+    },
+    {
+        "question" : "AngularJS was developed by Google.",
+        "answers" : [
+            {"id" :0, "text" : "True"},
+            {"id" :1, "text" : "False"}
+        ],
+        "correct" : 0
+    },
+    {
+        "question" : "Stylus is a back-end programming language.",
+        "answers" : [
+            {"id" :0, "text" : "True"},
+            {"id" :1, "text" : "False"}
+        ],
+        "correct" : 1
+    }
+    
+]
