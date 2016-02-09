@@ -1,6 +1,6 @@
 [
     {
-        "question" : "HTML stands for HyperText Markup Language.",
+        "question" : "Tim Berners-Lee invented the Internet.",
         "answers" : [
             {"id" :0, "text" : "True"},
             {"id" :1, "text" : "False"}
@@ -8,15 +8,7 @@
         "correct" : 0
     },
     {
-        "question" : "CSS stands for Cascading Style Sheets.",
-        "answers" : [
-            {"id" :0, "text" : "True"},
-            {"id" :1, "text" : "False"}
-        ],
-        "correct" : 0
-    },
-    {
-        "question" : "JSON stands for JavaScript Oriented Name.",
+        "question" : "Dogs are better than cats.",
         "answers" : [
             {"id" :0, "text" : "True"},
             {"id" :1, "text" : "False"}
@@ -24,7 +16,7 @@
         "correct" : 1
     },
     {
-        "question" : "AngularJS is maintained by Google.",
+        "question" : "Winter is coming.",
         "answers" : [
             {"id" :0, "text" : "True"},
             {"id" :1, "text" : "False"}
@@ -32,12 +24,11 @@
         "correct" : 0
     },
     {
-        "question" : "Stylus is a back-end programming language.",
+        "question" : "Internet Explorer is the most advanced browser on Earth.",
         "answers" : [
             {"id" :0, "text" : "True"},
             {"id" :1, "text" : "False"}
         ],
         "correct" : 1
     }
-    
 ]
