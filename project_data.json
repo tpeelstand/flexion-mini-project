@@ -24,7 +24,7 @@
         "correct" : 1
     },
     {
-        "question" : "AngularJS was developed by Google.",
+        "question" : "AngularJS is maintained by Google.",
         "answers" : [
             {"id" :0, "text" : "True"},
             {"id" :1, "text" : "False"}

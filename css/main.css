@@ -1,11 +1,17 @@
 @import url("http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100");
 body {
   background: #000;
-  background: -webkit-linear-gradient(#444, #000);
-  background: -o-linear-gradient(#444, #000);
-  background: -moz-linear-gradient(#444, #000);
-  background: linear-gradient(#444, #000);
+  background: -webkit-linear-gradient(#222, #000);
+  background: -o-linear-gradient(#222, #000);
+  background: -moz-linear-gradient(#222, #000);
+  background: linear-gradient(#222, #000);
   padding: 20px;
+}
+@media screen and (max-width: 650px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
 }
 #miniProject {
   font-family: 'Roboto', sans-serif;
@@ -17,6 +23,12 @@ body {
   overflow: hidden;
   color: #fff;
 }
+@media screen and (max-width: 650px) {
+  #miniProject {
+    width: 320px;
+    background-size: 320px auto;
+  }
+}
 #miniProject h1 {
   font-weight: 100;
   font-size: 2em;
@@ -26,6 +38,14 @@ body {
   top: 25px;
   left: 36px;
 }
+@media screen and (max-width: 650px) {
+  #miniProject h1 {
+    width: 300px;
+    font-size: 1.5em;
+    top: 25px;
+    left: 25px;
+  }
+}
 #miniProject h1 span {
   display: block;
   font-weight: 900;
@@ -33,15 +53,31 @@ body {
   font-size: 1.27em;
   line-height: 20px;
 }
+@media screen and (max-width: 650px) {
+  #miniProject h1 span {
+    line-height: 20px;
+  }
+}
 #miniProject h2 {
   font-size: 3em;
   margin: 0;
   font-weight: 100;
 }
+@media screen and (max-width: 650px) {
+  #miniProject h2 {
+    margin: 0;
+  }
+}
 #miniProject h3 {
   font-size: 2.4em;
   margin: 0;
   font-weight: 100;
+}
+@media screen and (max-width: 650px) {
+  #miniProject h3 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+  }
 }
 #miniProject p {
   font-size: 1.25em;
@@ -54,6 +90,13 @@ body {
   top: 120px;
   left: 40px;
 }
+@media screen and (max-width: 650px) {
+  #miniProject .progress {
+    width: 300px;
+    top: 90px;
+    left: 25px;
+  }
+}
 #miniProject .progress div {
   position: relative;
   display: inline-block;
@@ -64,17 +107,12 @@ body {
   background-color: rgba(255,255,255,0.2);
   transition: background-color 1s;
 }
-#miniProject .progress div::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -60px;
-  left: -15px;
-  width: 65px;
-  height: 40px;
-  background: url("../images/ring.svg") no-repeat 0 0;
-  transition: opacity 1s, top 1s;
-  opacity: 0;
+@media screen and (max-width: 650px) {
+  #miniProject .progress div {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
 }
 #miniProject .progress div.on,
 #miniProject .progress div.answered {
@@ -99,8 +137,20 @@ body {
   left: 660px;
   width: 550px;
 }
+@media screen and (max-width: 650px) {
+  #miniProject .intro {
+    width: 285px;
+    top: 160px;
+    left: 330px;
+  }
+}
 #miniProject .intro p {
   margin: 0 0 55px 0;
+}
+@media screen and (max-width: 650px) {
+  #miniProject .intro p {
+    margin-bottom: 15px;
+  }
 }
 #miniProject .question {
   width: 550px;
@@ -108,8 +158,21 @@ body {
   top: 225px;
   left: 660px;
 }
+@media screen and (max-width: 650px) {
+  #miniProject .question {
+    width: 285px;
+    left: 330px;
+    top: 160px;
+  }
+}
 #miniProject .question .txt {
   font-size: 1.6m;
+}
+@media screen and (max-width: 650px) {
+  #miniProject .question .txt {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
 }
 #miniProject .question .txt span {
   display: block;
@@ -176,6 +239,11 @@ body {
   top: 225px;
   left: 660px;
   width: 550px;
+}
+@media screen and (max-width: 650px) {
+  #miniProject .results {
+    width: 285px;
+  }
 }
 #miniProject .active,
 #miniProject .inactive {

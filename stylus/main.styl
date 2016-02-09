@@ -1,13 +1,18 @@
+
 @import url('http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100')
     
 body
   background #000
-  background -webkit-linear-gradient(#444, #000)
-  background -o-linear-gradient(#444, #000)
-  background -moz-linear-gradient(#444, #000)
-  background linear-gradient(#444, #000)
+  background -webkit-linear-gradient(#222, #000)
+  background -o-linear-gradient(#222, #000)
+  background -moz-linear-gradient(#222, #000)
+  background linear-gradient(#222, #000)
   padding 20px
-
+  
+  @media screen and (max-width 650px)
+      padding 0
+      margin 0
+      
 #miniProject
   font-family 'Roboto', sans-serif
   font-size 16px
@@ -17,6 +22,11 @@ body
   position relative
   overflow hidden
   color #FFF
+  
+  @media screen and (max-width 650px)
+      width 320px
+      background-size 320px auto
+      
   h1
     font-weight 100
     font-size 2em
@@ -25,20 +35,37 @@ body
     position absolute
     top 25px
     left 36px
+    
+    @media screen and (max-width 650px)
+        width 300px
+        font-size 1.5em
+        top 25px
+        left 25px
+        
     span
       display block
       font-weight 900
       font-family 'Titillium Web', san-serif
       font-size 1.27em
       line-height 20px
+      
+      @media screen and (max-width 650px)
+        line-height 20px
   h2
     font-size 3em
     margin 0
     font-weight 100
+    
+    @media screen and (max-width 650px)
+        margin 0
   h3
     font-size 2.4em
     margin 0
     font-weight 100
+    
+    @media screen and (max-width 650px)
+        font-size 2.2em
+        margin-bottom 15px
   p
     font-size 1.25em
     margin 0 0 14px 0
@@ -48,6 +75,12 @@ body
       position absolute
       top 120px
       left 40px
+      
+      @media screen and (max-width 650px)
+          width 300px
+          top 90px
+          left 25px
+          
       div
         position relative
         display inline-block
@@ -57,17 +90,12 @@ body
         border-radius 50%
         background-color rgba(255, 255,255, .2)
         transition background-color 1s
-        &::after
-            content ''
-            display block
-            position absolute
-            top -60px
-            left -15px
-            width 65px
-            height 40px
-            background url('../images/ring.svg') no-repeat 0 0
-            transition opacity 1s, top 1s
-            opacity 0
+        
+        @media screen and (max-width 650px)
+            width 25px
+            height 25px
+            margin-right 20px
+
       div.on
       div.answered
         background-color #efbe5e
@@ -87,15 +115,33 @@ body
     top 225px
     left 660px
     width 550px
+    
+    @media screen and (max-width 650px)
+      width 285px
+      top 160px
+      left 330px
     p
       margin 0 0 55px 0
+      
+      @media screen and (max-width 650px)
+          margin-bottom 15px
+          
   .question
     width 550px
     position absolute
     top 225px
     left 660px
+    
+    @media screen and (max-width 650px)
+        width 285px
+        left 330px
+        top 160px
     .txt
       font-size 1.6m
+      
+      @media screen and (max-width 650px)
+          font-size 1.4em
+          margin-bottom 15px
       span
           display block
     .ans
@@ -150,6 +196,9 @@ body
       top 225px
       left 660px
       width 550px
+      
+      @media screen and (max-width 650px)
+          width 285px
   .active
   .inactive
       transition left 1.5s ease-in-out
@@ -157,5 +206,4 @@ body
       left 40px
   .intro.inactive
   .inactive.answered {left: -1350px;}
-      
-
+    

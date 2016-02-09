@@ -27,11 +27,10 @@
                     $scope.score += 1;   
                 } else {
                     $scope.myQuestions[qIndex].correctness = 'incorrect';
-                    $scope.score -= 1;
                 }
                 $scope.myQuestions[qIndex].questionState = 'answered';
             }
-
+            $scope.percentage = ($scope.score / $scope.totalQuestions)*100;
             
         }
         $scope.isSelected = function(qIndex,aIndex) {
