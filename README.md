@@ -12,7 +12,7 @@ and/or technologies.
 6. GitHub (Version Control)
 
 As a front-end developer, that is a bit more on the design end of things, this was a great learning project for me and I look forward to
-continuing my JavaScript and JavaScript frameworks learning in the future. Throughout this project I utilized 
+continuing my JavaScript and JavaScript frameworks learning in the future.
 
 I was not able to incorporate CoffeeScript into this project, however, did take a look at it. I am going to be adding CoffeeScript to the 
 ever growning list of languages/frameworks to learn!
