@@ -11,12 +11,13 @@ and/or technologies.
 5. JSON
 6. GitHub (Version Control)
 
+
+To take the quiz goto: http://creative-cow-design.com/flexion/
+
 As a front-end developer, that is a bit more on the design end of things, this was a great learning project for me and I look forward to
 continuing my JavaScript and JavaScript frameworks learning in the future.
 
-I was not able to incorporate CoffeeScript into this project, however, did take a look at it. I am going to be adding CoffeeScript to the 
-ever growning list of languages/frameworks to learn!
+I was not able to incorporate CoffeeScript into this project, however, did take a look at it. I am going to be adding CoffeeScript to the ever growning list of languages/frameworks to learn!
 
-Also, I have used NodeJS and Grunt to compile Less to CSS in the past, however, I did not use it on this project. My next goal would be to
-get a NodeJS enviornment setup on my computer that would allow my to compile Stylus, Less, CoffeeScript..and the likes.
+Also, I have used NodeJS and Grunt to compile Less to CSS in the past, however, I did not use it on this project. My next goal would be to get a NodeJS enviornment setup on my computer that would allow my to compile Stylus, Less, CoffeeScript..and the likes.
 
