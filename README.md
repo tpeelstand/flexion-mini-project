@@ -11,6 +11,8 @@ and/or technologies.
 5. JSON
 6. GitHub (Version Control)
 
+EDIT: (2/10/2016) - I didn't use a Grunt build to do this project, however, I have now added one to this file. The Grunt build works to compile Stylus and Less at this point. Still working on getting it to compile Scss and Coffeescript.
+
 
 To take the quiz goto: http://creative-cow-design.com/flexion/
 
