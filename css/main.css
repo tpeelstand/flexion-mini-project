@@ -1,10 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100");
 body {
-  background: #000;
-  background: -webkit-linear-gradient(#222, #000);
-  background: -o-linear-gradient(#222, #000);
-  background: -moz-linear-gradient(#222, #000);
-  background: linear-gradient(#222, #000);
+  background: #222;
   padding: 20px;
 }
 @media screen and (max-width: 650px) {

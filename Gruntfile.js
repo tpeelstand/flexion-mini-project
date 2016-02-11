@@ -14,22 +14,10 @@ module.exports = function(grunt) {
         }
       }
     },
-    less: {
-      development: {
-        options: {
-          compress: false,
-          yuicompress: true,
-          optimization: 2
-        },
-        files: {
-          "css/styles.css": "less/styles.less", // destination file and source file
-        }
-      }
-    },
     watch: {
       styles: {
-        files: ['stylus/**/*.styl', 'less/**/*.less'], // which files to watch
-        tasks: ['stylus', 'less', 'sass'],
+        files: ['stylus/**/*.styl'], // which files to watch
+        tasks: ['stylus'],
         options: {
           nospawn: true
         }
@@ -37,6 +25,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['stylus', 'less', 'watch']);
+  grunt.registerTask('default', ['stylus', 'watch']);
 };
 
