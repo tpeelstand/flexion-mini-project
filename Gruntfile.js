@@ -26,21 +26,9 @@ module.exports = function(grunt) {
         }
       }
     },
-    sass: {
-      development: {
-        options: {
-          compress: false,
-          yuicompress: true,
-          optimization: 2
-        },
-        files: {
-          "css/sstyles.css": "sa ss/sstyles.sass", // destination file and source file
-        }
-      }
-    },
     watch: {
       styles: {
-        files: ['stylus/**/*.styl', 'less/**/*.less', 'sass/**/*.sass'], // which files to watch
+        files: ['stylus/**/*.styl', 'less/**/*.less'], // which files to watch
         tasks: ['stylus', 'less', 'sass'],
         options: {
           nospawn: true
@@ -49,8 +37,6 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['stylus', 'less', 'sass', 'watch']);
-    
-    grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.registerTask('default', ['stylus', 'less', 'watch']);
 };
 
