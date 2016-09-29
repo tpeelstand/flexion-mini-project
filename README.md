@@ -13,9 +13,6 @@ and/or technologies.
 
 EDIT: (2/10/2016) - I didn't use a Grunt build to do this project, however, I have now added one to this file. The Grunt build works to compile Stylus and Less at this point. Still working on getting it to compile Scss and Coffeescript.
 
-
-To take the quiz goto: http://creative-cow-design.com/flexion/
-
 As a front-end developer, that is a bit more on the design end of things, this was a great learning project for me and I look forward to
 continuing my JavaScript and JavaScript frameworks learning in the future.
 
